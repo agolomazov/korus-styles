@@ -16,38 +16,8 @@ module.exports = {
         "ignoreTrailingComments": true
       }
     ],
-    "require-jsdoc": [
-      "error",
-      {
-        "require": {
-          "FunctionDeclaration": true,
-          "MethodDefinition": false,
-          "ClassDeclaration": false,
-          "ArrowFunctionExpression": false,
-          "FunctionExpression": false
-        }
-      }
-    ],
-    "valid-jsdoc": [
-      "error",
-      {
-        "prefer": {
-          "arg": "param",
-          "argument": "param",
-          "class": "constructor",
-          "return": "returns",
-          "virtual": "abstract"
-        },
-        "requireParamDescription": true,
-        "requireReturnDescription": true,
-        "requireParamType": true,
-        "requireReturnType": true,
-        "requireReturn": true
-      }
-    ],
     "no-alert": "error",
     "no-debugger": "warn",
-    "optimize-regex/optimize-regex": "warn",
     "no-extend-native": "error",
     "prettier/prettier": ["error"],
     "no-empty": [
