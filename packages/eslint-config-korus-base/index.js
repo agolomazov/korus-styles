@@ -4,6 +4,7 @@ module.exports = {
     './rules/import',
     './rules/jsdoc',
     './rules/regex',
+    './rules/prettier',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2018,

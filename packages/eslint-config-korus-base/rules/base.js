@@ -19,7 +19,6 @@ module.exports = {
     "no-alert": "error",
     "no-debugger": "warn",
     "no-extend-native": "error",
-    "prettier/prettier": ["error"],
     "no-empty": [
       "error",
       {
