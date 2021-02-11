@@ -8,12 +8,10 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": 0,
   },
-  plugins: [
-    "react",
-  ],
+  plugins: ["react"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
   },
-}
+};

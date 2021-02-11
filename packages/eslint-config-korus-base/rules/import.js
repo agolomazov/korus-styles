@@ -1,32 +1,23 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module'
+    sourceType: "module",
   },
-  plugins: [
-    'import'
-  ],
+  plugins: ["import"],
   settings: {
-    'import/resolver': {
+    "import/resolver": {
       node: {
-        extensions: ['.mjs', '.js', '.json']
-      }
+        extensions: [".mjs", ".js", ".json"],
+      },
     },
-    'import/extensions': [
-      '.js',
-      '.mjs',
-      '.jsx',
-      '.ts',
-      '.tsx',
-    ],
-    'import/core-modules': [
-    ],
-    'import/ignore': [
-      'node_modules',
-      '\\.(coffee|scss|css|less|hbs|svg|json)$',
+    "import/extensions": [".js", ".mjs", ".jsx", ".ts", ".tsx"],
+    "import/core-modules": [],
+    "import/ignore": [
+      "node_modules",
+      "\\.(coffee|scss|css|less|hbs|svg|json)$",
     ],
   },
   rules: {
@@ -34,5 +25,5 @@ module.exports = {
     "import/extensions": 0,
     "import/prefer-default-export": 0,
     "import/no-cycle": "warn",
-  }
-}
+  },
+};
