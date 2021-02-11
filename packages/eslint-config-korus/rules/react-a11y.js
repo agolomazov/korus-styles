@@ -6,10 +6,7 @@ module.exports = {
     "jsx-a11y/label-has-associated-control": 0,
     "jsx-a11y/label-has-for": 0,
   },
-  plugins: [
-    "jsx-a11y",
-    "react",
-  ],
+  plugins: ["jsx-a11y", "react"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
